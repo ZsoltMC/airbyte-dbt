@@ -1,1 +1,1 @@
-select * from airbyte
+select id, name, CONCAT(id, ' ', name) as _info from airbyte
